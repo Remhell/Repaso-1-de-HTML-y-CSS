@@ -1,5 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://w.wallhaven.cc/full/zx/wallhaven-zx7mdv.jpg);
+    background-size: cover;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+}
+
+.logo {
+    width: 15rem;
+    height: 15rem;
+    background-image: url(https://png.pngtree.com/png-vector/20220704/ourmid/pngtree-radio-telescope-vector-illustration-connection-png-image_5567457.png);
+    background-size: cover;
 }
