@@ -139,4 +139,24 @@ td {
 .font-white {
     color: white;
     margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    form {
+        max-width: 100vw;
+    }
 }
